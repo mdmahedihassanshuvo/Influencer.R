@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #c2bbbb;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 120px 50px 120px;
+  margin-bottom: 80px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.navbar a {
+  text-decoration: none;
+  margin-right: 34px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+/* ----------journey styles------------- */
+
+.journey {
+  display: flex;
+  gap: 133px;
+  justify-content: center;
+  align-items: center;
+}
+.journey-tittle {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.journey-details {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.journey-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #e02c6d;
+  padding: 5px 8px;
+  border-radius: 41px;
+}
+.journey-thumbnail {
+  background-image: url("../images/Circle\ design.svg");
+  margin-bottom: 70px;
+}
+
+/* -------------- market styles    ----------------- */
+.market {
+  width: 1110px;
+  margin: 0 auto;
+}
+.market-container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.145);
+  border-top: 1px solid rgba(0, 0, 0, 0.194);
+  padding: 35px 60px;
+}
+.market-logo img {
+  width: 55.05px;
+  height: 31.06px;
+}
+
+/* -------------- collection styles-------------- */
+
+.collection {
+  margin: 100px 195px;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.collection-tittle {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+}
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 17px 14px;
+  border-radius: 10px;
+}
+.item-thumbnail img {
+  width: 250px;
+  height: 256px;
+  margin-bottom: 16px;
+}
+.item-tittle {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+}
+.item-price {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.more-item-link {
+  text-decoration: none;
+  position: absolute;
+  right: 220px;
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* --------------- future style---------- */
+
+.future {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.future-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 95px;
+}
+.future-thumbnail img {
+  width: 404px;
+  height: 270px;
+}
+.future-tittle {
+  font-weight: 700;
+  font-size: 38px;
+  color: #0a0826;
+  margin-bottom: 16px;
+}
+.future-description {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-bottom: 16px;
+}
+.journey-btn.future-btn {
+  border: none;
+  cursor: pointer;
+}
+
+/* -----------------footer style----------- */
+
+.footer {
+  color: #fff;
+  text-align: center;
+  background: rgba(1, 1, 61, 0.797);
+  padding: 50px;
+}
+.footer-tittle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.footer-description-1 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.footer-description-2 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+  margin-bottom: 17px;
+}
+.fa-brands{
+    margin-right: 8px;
+}
